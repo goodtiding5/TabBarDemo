@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2727DA7D154AE5CC00380D68 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2727DA7B154AE5CC00380D68 /* TabBarController.m */; };
+		27D5E84D154AD5760071D4E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D5E84C154AD5760071D4E8 /* UIKit.framework */; };
+		27D5E84F154AD5760071D4E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D5E84E154AD5760071D4E8 /* Foundation.framework */; };
+		27D5E851154AD5760071D4E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D5E850154AD5760071D4E8 /* CoreGraphics.framework */; };
+		27D5E857154AD5760071D4E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27D5E855154AD5760071D4E8 /* InfoPlist.strings */; };
+		27D5E859154AD5760071D4E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5E858154AD5760071D4E8 /* main.m */; };
+		27D5E85D154AD5760071D4E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5E85C154AD5760071D4E8 /* AppDelegate.m */; };
+		27D5E866154AD6480071D4E8 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5E864154AD6480071D4E8 /* BlueViewController.m */; };
+		27D5E867154AD6480071D4E8 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D5E865154AD6480071D4E8 /* BlueViewController.xib */; };
+		27D5E86B154AD65B0071D4E8 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5E869154AD65B0071D4E8 /* GreenViewController.m */; };
+		27D5E86C154AD65B0071D4E8 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D5E86A154AD65B0071D4E8 /* GreenViewController.xib */; };
+		27D5E870154AD6730071D4E8 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5E86E154AD6730071D4E8 /* RedViewController.m */; };
+		27D5E871154AD6730071D4E8 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D5E86F154AD6730071D4E8 /* RedViewController.xib */; };
+		27D5E875154AD6850071D4E8 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5E873154AD6850071D4E8 /* YellowViewController.m */; };
+		27D5E876154AD6850071D4E8 /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D5E874154AD6850071D4E8 /* YellowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2727DA7A154AE5CC00380D68 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		2727DA7B154AE5CC00380D68 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		27D5E848154AD5760071D4E8 /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D5E84C154AD5760071D4E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27D5E84E154AD5760071D4E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27D5E850154AD5760071D4E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27D5E854154AD5760071D4E8 /* TabBarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarDemo-Info.plist"; sourceTree = "<group>"; };
+		27D5E856154AD5760071D4E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27D5E858154AD5760071D4E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27D5E85A154AD5760071D4E8 /* TabBarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabBarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		27D5E85B154AD5760071D4E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27D5E85C154AD5760071D4E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27D5E863154AD6480071D4E8 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		27D5E864154AD6480071D4E8 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		27D5E865154AD6480071D4E8 /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		27D5E868154AD65B0071D4E8 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		27D5E869154AD65B0071D4E8 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		27D5E86A154AD65B0071D4E8 /* GreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
+		27D5E86D154AD6730071D4E8 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		27D5E86E154AD6730071D4E8 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		27D5E86F154AD6730071D4E8 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		27D5E872154AD6850071D4E8 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		27D5E873154AD6850071D4E8 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		27D5E874154AD6850071D4E8 /* YellowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D5E845154AD5760071D4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D5E84D154AD5760071D4E8 /* UIKit.framework in Frameworks */,
+				27D5E84F154AD5760071D4E8 /* Foundation.framework in Frameworks */,
+				27D5E851154AD5760071D4E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D5E83D154AD5760071D4E8 = {
+			isa = PBXGroup;
+			children = (
+				27D5E852154AD5760071D4E8 /* TabBarDemo */,
+				27D5E84B154AD5760071D4E8 /* Frameworks */,
+				27D5E849154AD5760071D4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27D5E849154AD5760071D4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D5E848154AD5760071D4E8 /* TabBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D5E84B154AD5760071D4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D5E84C154AD5760071D4E8 /* UIKit.framework */,
+				27D5E84E154AD5760071D4E8 /* Foundation.framework */,
+				27D5E850154AD5760071D4E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27D5E852154AD5760071D4E8 /* TabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				27D5E85B154AD5760071D4E8 /* AppDelegate.h */,
+				27D5E85C154AD5760071D4E8 /* AppDelegate.m */,
+				27D5E853154AD5760071D4E8 /* Supporting Files */,
+				27D5E863154AD6480071D4E8 /* BlueViewController.h */,
+				27D5E864154AD6480071D4E8 /* BlueViewController.m */,
+				27D5E865154AD6480071D4E8 /* BlueViewController.xib */,
+				27D5E868154AD65B0071D4E8 /* GreenViewController.h */,
+				27D5E869154AD65B0071D4E8 /* GreenViewController.m */,
+				27D5E86A154AD65B0071D4E8 /* GreenViewController.xib */,
+				27D5E86D154AD6730071D4E8 /* RedViewController.h */,
+				27D5E86E154AD6730071D4E8 /* RedViewController.m */,
+				27D5E86F154AD6730071D4E8 /* RedViewController.xib */,
+				27D5E872154AD6850071D4E8 /* YellowViewController.h */,
+				27D5E873154AD6850071D4E8 /* YellowViewController.m */,
+				27D5E874154AD6850071D4E8 /* YellowViewController.xib */,
+				2727DA7A154AE5CC00380D68 /* TabBarController.h */,
+				2727DA7B154AE5CC00380D68 /* TabBarController.m */,
+			);
+			path = TabBarDemo;
+			sourceTree = "<group>";
+		};
+		27D5E853154AD5760071D4E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27D5E854154AD5760071D4E8 /* TabBarDemo-Info.plist */,
+				27D5E855154AD5760071D4E8 /* InfoPlist.strings */,
+				27D5E858154AD5760071D4E8 /* main.m */,
+				27D5E85A154AD5760071D4E8 /* TabBarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D5E847154AD5760071D4E8 /* TabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D5E860154AD5760071D4E8 /* Build configuration list for PBXNativeTarget "TabBarDemo" */;
+			buildPhases = (
+				27D5E844154AD5760071D4E8 /* Sources */,
+				27D5E845154AD5760071D4E8 /* Frameworks */,
+				27D5E846154AD5760071D4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarDemo;
+			productName = TabBarDemo;
+			productReference = 27D5E848154AD5760071D4E8 /* TabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D5E83F154AD5760071D4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Kenneth Zhao";
+			};
+			buildConfigurationList = 27D5E842154AD5760071D4E8 /* Build configuration list for PBXProject "TabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27D5E83D154AD5760071D4E8;
+			productRefGroup = 27D5E849154AD5760071D4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D5E847154AD5760071D4E8 /* TabBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D5E846154AD5760071D4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D5E857154AD5760071D4E8 /* InfoPlist.strings in Resources */,
+				27D5E867154AD6480071D4E8 /* BlueViewController.xib in Resources */,
+				27D5E86C154AD65B0071D4E8 /* GreenViewController.xib in Resources */,
+				27D5E871154AD6730071D4E8 /* RedViewController.xib in Resources */,
+				27D5E876154AD6850071D4E8 /* YellowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D5E844154AD5760071D4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D5E859154AD5760071D4E8 /* main.m in Sources */,
+				27D5E85D154AD5760071D4E8 /* AppDelegate.m in Sources */,
+				27D5E866154AD6480071D4E8 /* BlueViewController.m in Sources */,
+				27D5E86B154AD65B0071D4E8 /* GreenViewController.m in Sources */,
+				27D5E870154AD6730071D4E8 /* RedViewController.m in Sources */,
+				27D5E875154AD6850071D4E8 /* YellowViewController.m in Sources */,
+				2727DA7D154AE5CC00380D68 /* TabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27D5E855154AD5760071D4E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D5E856154AD5760071D4E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27D5E85E154AD5760071D4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D5E85F154AD5760071D4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D5E861154AD5760071D4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBarDemo/TabBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "TabBarDemo/TabBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27D5E862154AD5760071D4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBarDemo/TabBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "TabBarDemo/TabBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D5E842154AD5760071D4E8 /* Build configuration list for PBXProject "TabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5E85E154AD5760071D4E8 /* Debug */,
+				27D5E85F154AD5760071D4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D5E860154AD5760071D4E8 /* Build configuration list for PBXNativeTarget "TabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5E861154AD5760071D4E8 /* Debug */,
+				27D5E862154AD5760071D4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27D5E83F154AD5760071D4E8 /* Project object */;
+}
